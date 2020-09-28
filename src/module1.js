@@ -1,3 +1,3 @@
 var counter = require('./counterBase');
 
-console.log(counter);
+module.exports = new counter.Counter();

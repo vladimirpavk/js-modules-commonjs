@@ -7,5 +7,5 @@ class Counter{
 }
 
 module.exports = {
-    'Counter' : new Counter()
+    'Counter' : Counter
 }
