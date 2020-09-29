@@ -6,6 +6,10 @@ class Counter{
     setTicks = (value)=>this.ticks = value;
 }
 
+let counter = new Counter();
+let sharedName = 'Vladimir';
+
 module.exports = {
-    'Counter' : Counter
+    'counter': counter,
+    'sharedName': sharedName
 }

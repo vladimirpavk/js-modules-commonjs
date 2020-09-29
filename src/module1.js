@@ -1,3 +1,6 @@
-var counter = require('./counterBase');
+var { counter, sharedName } = require('./counterBase');
 
-module.exports = new counter.Counter();
+module.exports = {
+    'counter' : counter,
+    'sharedName' : sharedName
+}
